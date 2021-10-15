@@ -1,8 +1,8 @@
 import time
-def calculate_time(func):
+def calculate_time(funt):
     def timer():
         timing = time.time()
-        func()
+        funt()
         print("This took: %s seconds" % (time.time() - timing))
     return timer
 @calculate_time
