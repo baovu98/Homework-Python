@@ -6,12 +6,9 @@ def multiply_list(Lalisalist):
                int(i)
           except:
                return False
-
     for i in Lalisalist:
-         result = result * i
-         
+         result = result * i      
     return result
-
 #Insert Desired numbers
 yourList = []
 yourList = list(map(int,input("Input: ").split()))
